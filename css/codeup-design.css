@@ -40,6 +40,10 @@ nav .nav-item {
     bottom: 6px;
 }
 
+@media screen and (min-width: 768px){
+    .selectedwork {text-align: left;}
+}
+
 @media screen and (min-width: 992px) {
     .sub-title {text-align: left;}
     hr {width: 100%;}
