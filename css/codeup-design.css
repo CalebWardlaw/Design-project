@@ -66,16 +66,70 @@ h5, label {
 }
 
 /*SMALL*/
-.circle {
+.circlesmall-red {
     line-height: 18px;
     text-align: center;
-    font: Anton;
+    font-family: 'Anton', sans-serif;
+    font-size: .5em;
+    border: 1px solid;
+    border-color: black;
     justify-content: center;
     width: 18px;
     height: 18px;
+    margin: .5em;
     background: #E6563B;
     border-radius: 50%;
 }
+
+.circlesmall-orange {
+    line-height: 18px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: .5em;
+    border: 1px solid;
+    border-color: black;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin: .5em;
+    background: #EB9D3A;
+    border-radius: 50%;
+}
+
+.circlesmall-green {
+    line-height: 18px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: .5em;
+    border: 1px solid;
+    border-color: black;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin: .5em;
+    background: #7CB06C;
+    border-radius: 50%;
+}
+
+.circlesmall-teal {
+    line-height: 18px;
+    text-align: center;
+    font-family: 'Anton', sans-serif;
+    font-size: .5em;
+    border: 1px solid;
+    border-color: black;
+    justify-content: center;
+    width: 18px;
+    height: 18px;
+    margin: .5em;
+    background: #00ABA9;
+    border-radius: 50%;
+}
+
+/*#EBD9D3A ORANGE*/
+/*#7CB06C GREEN*/
+/*00ABA9 TEAL
+
 
 /*LARGE*/
 .circle {
@@ -89,3 +143,7 @@ h5, label {
     border-radius: 50%
 }
 
+.frame {
+    height: 50px;
+    width: 50px;
+}
