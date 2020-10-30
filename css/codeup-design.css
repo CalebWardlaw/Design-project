@@ -1,6 +1,10 @@
 body {
-    font-family: 'Abel', sans-serif;
+    font-family: 'Anton', sans-serif;
     background: #f0f0f0;
+}
+
+p {
+    font-family: 'Abel', sans-serif;
 }
 
 .wrapper {
@@ -14,6 +18,10 @@ body {
 nav a {
     font-size: .75em;
     color: black;
+}
+
+.last-img {
+    float: left;
 }
 
 .nav-background {
@@ -41,8 +49,6 @@ nav .nav-item {
     }
 }
 
-/*SMALL*/
-
 h5, label {
     display: inline;
 }
@@ -59,6 +65,7 @@ h5, label {
     float: right;
 }
 
+/*SMALL*/
 .circle {
     line-height: 18px;
     text-align: center;
@@ -67,11 +74,10 @@ h5, label {
     width: 18px;
     height: 18px;
     background: #E6563B;
-    border-radius: 50%
+    border-radius: 50%;
 }
 
 /*LARGE*/
-
 .circle {
     line-height: 18px;
     text-align: center;
