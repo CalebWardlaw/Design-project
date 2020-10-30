@@ -124,34 +124,22 @@ h5, label {
 
 /*LARGE*/
 
-span{
-    margin: auto;
-    padding-bottom: 200px;
-    height: 100%;
-}
-
 .circleslarge-red,
 .circleslarge-orange,
 .circleslarge-green,
 .circleslarge-teal {
-    position: relative;
-    display: flex;
-    text-align: center;
-    font-family: 'Anton', sans-serif;
-    font-size: 13.28px;
-    color: white;
-    border: 8px solid;
-    border-color: white;
-    justify-content: center;
-    width: 105px;
-    height: 105px;
-    margin: 5em 3em 1em 3em;
-    padding: 50%;
     background: #E6563B;
     border-radius: 50%;
+    border: solid 5px;
+    height: 105px;
+    width: 105px;
+    position: relative;
+    margin: 10px;
+    color: white;
+    vertical-align: middle;
 }
 
-.circleslarge-orange {
+.circleslarge-orange{
     background-color: #EB9D3A;
 }
 
@@ -162,7 +150,11 @@ span{
 .circleslarge-teal {
     background-color: #00ABA9;
 }
-
+.text_circle {
+    font-size: 24px;
+    margin-bottom: 50px;
+    line-height: 100px;
+}
 
 .last-img {
     margin: auto;
