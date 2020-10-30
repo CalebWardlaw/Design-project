@@ -65,6 +65,7 @@ h5, label {
 .float-left {
     font-family: 'Abel', sans-serif;
     float: left;
+    font-size: .75em;
 }
 
 .float-right {
@@ -177,6 +178,10 @@ h5, label {
     flex-direction: row;
     justify-content: space-evenly;
     margin: auto;
+}
+
+.face {
+    clip-path: inset(0px 0px 1px 0px);
 }
 
 .frame {
