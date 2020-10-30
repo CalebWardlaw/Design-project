@@ -151,6 +151,7 @@ h5, label {
     background-color: #00ABA9;
 }
 .text_circle {
+    font-family: 'Anton', sans-serif;
     font-size: 24px;
     margin-bottom: 50px;
     line-height: 100px;
