@@ -180,9 +180,9 @@ h5, label {
     margin: auto;
 }
 
-.face {
-    clip-path: inset(0px 0px 1px 0px);
-}
+/*.face {*/
+/*    clip-path: inset(0px 0px 1px 0px);*/
+/*}*/
 
 .frame {
     height: 50px;
